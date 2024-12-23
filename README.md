@@ -120,10 +120,10 @@ python -m spacy download en_core_web_sm
 4. **Evaluate the Model**:
    - After training, the script will evaluate the model on the test dataset and print the accuracy and loss.
 
----
+----
 
-## Notes on Datasets
+## Notes on Datasets   
 
 - The IMDB dataset is binary-labeled (positive/negative). Ensure other datasets you use are similarly formatted.
 - For other datasets, ensure compatibility with the tokenizer and input pipeline of the model.
-- Hugging Face `datasets` library supports many datasets out of the box, and you can replace the dataset name (e.g., `"imdb"`) to experiment with others.
+- Hugging Face `datasets` library supports many datasets out of the box, and you can replace the dataset name (e.g., `"imdb"`) to experiment with others. 
